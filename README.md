@@ -2,11 +2,11 @@
 
 ![Extinct Languages Image](intro-1523990289.webp)
 
-### Project Creation Date: September 2021
+**Project Creation Date**: *September 2021*
 
-For those of you who speak more than one language, have you noticed that you think differently in each language and that some concepts exist in one language but not in others?  So if we lose a language, what else are we losing with it?
+For those of you who speak more than one language, have you noticed that you think differently in each language? Do you notice that some concepts exist in one language but not in others?  So if we lose a language, what else are we losing with it?
 
-According to Ethnologue, there are 7,139 languages spoken in the world at the time of this project. But that number is constantly in flux.  As time goes by, new languages are discovered, some languages become endangered or vulnerable, while others become extinct.  
+According to Ethnologue, there are 7,139 languages spoken in the world at the time of this project. But that number is constantly in flux.  As time goes on, new languages are discovered, some languages become endangered or vulnerable, while others become extinct.  
 
 Roughly 40% of languages are now endangered, often with less than 1,000 speakers remaining.
 
@@ -33,76 +33,93 @@ The UNESCO endangerment classification is as follows:
 So in order to answer these question, I had to supplement the data by scraping more datasets on countries according to their world regions, sub-regions, official languages and former colonizers. 
 
 ## Answers and Insights Visualized
+
+[**Link to Tableau Public for interactive dashboards and story**](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) 
+
+
 ![Map](Map.png)
 
 As per the map above, there are large clusters of extinct, endangered and vulnerable languages between the tropics of Cancer and Capricorn, along the equator.
 
 ![Chart-Regions](Chart-RegionsbyEndangerement.png)
 
-Most of these languages are located in the Americas
+Most of these languages are located in the Americas, followed closely by Asia.
 
 
-![Chart-SubRegions](Chart-Extinct.png)
-
-![Chart-SubRegions](Chart-Critically.png)
-
-![Chart-SubRegions](Chart-Severely.png)
-
-![Chart-SubRegions](Chart-Definitely.png)
-
-![Chart-SubRegions](Chart-Vulnerable.png) 
+![Chart-SubRegions](Chart-Sub-regions.png) 
 
 
-Most of the extinct languages come from North America while most endangered and vulnerable languages are in Latin America and the Caribbean.
+Most extinct languages come from North America while most of the endangered and vulnerable languages are in Latin America and the Caribbean.
+
+
+![Dashboard-ByColonies](Dashboard-ByColonies.png)
+
+The hypothesis that most extinct languages come from former British and Spanish colonies is both correct and incorrect. 
+
+As per the chart above, most extinct languages came from *British and Spanish* colonies respectively but it is *British and French* colonies that produced the most endangered and vulnerable languages. 
+
+
+## Additional Questions and Answers
+
+**Q.** - Is a language more likely to be wiped out if spoken in only 1 country? 
 
 
 ![Table-CountriesperLang](Table-Numberofcountriesperlanguage.png)
 
 
-From the chart above, a language is more likely to be extinct if it is only spoken in one country vs. spread out in different countries.
+**A.** - As per the chart above, a language is more likely to be extinct if it is only spoken in one country vs. spread out across multiple countries.
+
 Romani is the endangered language spoken in the most number of countries (29), followed by Yiddish which is spoken in 25 countries.
+
+
+**Q.** - Is a language more likely to go extinct if the country has more than 1 colonizer?
 
 
 ![Table-NumberofColonizers](Table-NumberofColonizers.png)  
 
-A language is more likely to go extinct if it is from a country that only had one colonial power that ruled them.
+**A.** - A language is more likely to go extinct if it is from a country that only had one colonial power that ruled.
 
 A language is more likely to survive if the country it comes from had multiple colonial powers that took hold.  
 
 
-![Dashboard-ByColonies](Dashboard-ByColonies.png)
 
-The hypothesis at the beginning of this research was that most extinct languages took place in former British and Spanish Colonies. That is both correct and incorrect. 
-
-As per the chart above, most of the extinct languages came from British and Spanish colonies respectively but it is British and French colonies that produced the most endangered and vulnerable languages. 
+**Q.** - Which dominant language is responsible for pushing out the most number of native tongues?
 
 
 ![Dashboard-ByCurrentOfficialLanguage](Dashboard-ByCurrentOfficialLanguage.png)
 
-Lastly, as per the chart above, it is the English language that has pushed out the largest number of native languages.
+
+**A.** - As per the chart above, it is the English language that has pushed out the largest number of native languages.
 
 
 ### Data Limitations
 
-There is a large number of null values in the number of speakers column in the original dataset, and it is impossible to obtain some of this information due to the remoteness of some of the speakers of said language. This is why I could not use this measure in my analysis. I had to rely on the *degrees of endangerment* data for most of my investigation and supplement it by adding the following columns: *Region, Sub-Region, Former Colony of, Official Language (if world's Top 10 Language).*
+In the original dataset, there is a large number of null values in the *number of speakers* column.  It is impossible to obtain all of this information due to the remoteness of some of the speakers of these languages. This is why I could not use this measure in my analysis. I had to rely on the *degrees of endangerment* data for most of my investigation and supplement it by adding the following columns: *Region, Sub-Region, Former Colony of, Official Language (if world's Top 10 Language).*
+
+It's also important to note that UNESCO does not use the number of speakers as a determining  factor on the language's degree of endangerment.  Their measure is which generation currently speaks it (ie, is the lanuage only spoken by grandparents? Are children currently using the language?)
 
 And since this study can be quite extensive, I decided to only study the effects of the top Western European colonies in the modern era (between 1500-1900). So this leaves out, in particular: 
 
-**China**
+**China**:  As a whole, this country is still technically an empire since it includes many different cultures and ethnicities spread out over a very large area.  
 
-As a whole, this country is still technically an empire since it includes many different cultures and ethnicities spread out over a very large area.  
+**Russia**:  This country is not included as a former colonizer in my data although their influence still looms in Central Asia in the former Soviet states (eg. Tajikistan, Kyrgyzstan, Uzbekistan etc). They also only started their colonialism in the 1900
 
-**Russia** 
+**Japan**:  This country only colonized countries for less than 5 years during WWII. 
 
-This country is not included as a former colonizer in my data although their influence still looms in Central Asia in the former Soviet states (eg. Tajikistan, Kyrgyzstan, Uzbekistan etc). They also only started their colonialism in the 1900
+**USA**:  Not a colonizer in the common sense of the word but they have been an imperial power for quite some time. 
 
-**Japan**  
 
-This country only colonised countries for less than 5 years during WWII. 
+### Conclusion
 
-**USA** 
+It would be interesting to do a more in-depth study of extinct and endangered languages that take into account the other colonial powers I mentioned above, as well as others, like Belgium, Sweden, Norway, Austria and Austria-Hungary, the Ottoman Empire etc.
 
-Not a colonizer in the common sense of the word but they have been an imperial power for quite some time. 
+That being said, human language is tied to human history, even before the dawn of civilization.  This dataset does not include all the languages that ever existed on Earth since we probably started speaking as early Homo sapiens in the Stone Age before we could keep track of languages.  
+
+It's also important to note that this dataset does not include "dead" languages, like Latin for example. The difference between an extinct language and a dead language is that an extinct language no longer has any speakers, especially if the language has no living descendants. In contrast, a dead language is one that is no longer the native language of any community, even if it is still in use.  Although there are no longer any native speakers, Latin is still in use in medicine, science, law and liturgy etc.
+
+Language also evolves.  There is no doubt that we do not speak the same kind of English they spoke hundreds of years ago.  New words are born as new concepts, inventions and behaviours take hold in society. 
+ 
+But one thing is for sure.  Languages disappear because they are replaced by a more dominant language.  What makes a language more dominant is a subject for another analysis that would be wonderful to dive into... 
 
 
 Please also visit my [**Tableau Public**](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) to see interactive dashboards and the full story on this project.
