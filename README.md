@@ -1,6 +1,6 @@
 # Project 1: Extinct Languages
 
-![Extinct Languages Image](intro-1523990289.webp)
+![Extinct Languages Image](https://raw.githubusercontent.com/RubyRondina/Project-1--Extinct-Languages/main/Visuals/intro-1523990289.webp)
 
 **Project Creation Date**: *September 2021*
 
@@ -12,7 +12,7 @@ Roughly 40% of languages are now endangered, often with less than 1,000 speakers
 
 The dataset I am working with comes from [The Guardian](https://www.theguardian.com/news/datablog/2011/apr/15/language-extinct-endangered#data), who in turn, sourced the data from [UNESCO](http://www.unesco.org/languages-atlas/en/atlasmap.html#) in 2017.  They indicate 228 extinct languages on record.
 
-![Babel](Babel.jpg)
+![Babel](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Babel.jpg?raw=true)
 
 ## Dataset
 The full detailed dataset can be downloaded [here](https://docs.google.com/spreadsheets/d/1mUYwl5ZUTp2OHDr0hsco89YY5J8Qx2GWzTLFETzVnB4/edit?hl=en&hl=en#gid=1).  
@@ -37,23 +37,31 @@ So in order to answer these question, I had to supplement the data by scraping m
 [**Link to Tableau Public for interactive dashboards and story**](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) 
 
 
-![Map](Map.png)
+![Map](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Map.png)
 
 As per the map above, there are large clusters of extinct, endangered and vulnerable languages between the tropics of Cancer and Capricorn, along the equator.
 
-![Chart-Regions](Chart-RegionsbyEndangerement.png)
+
+
+
+![Chart-Regions](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Chart-RegionsbyEndangerement.png)
 
 Most of these languages are located in the Americas, followed closely by Asia.
 
 
-![Chart-SubRegions](Chart-Sub-regions.png) 
+
+
+![Chart-SubRegions](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Chart-Sub-regions.png) 
+
+
 
 
 Most extinct languages come from North America while most of the endangered and vulnerable languages are in Latin America and the Caribbean.
 
 
-![Dashboard-ByColonies](Dashboard-ByColonies.png)
 
+
+![Dashboard-ByColonies](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Dashboard-ByColonies.png)
 The hypothesis that most extinct languages come from former British and Spanish colonies is both correct and incorrect. 
 
 As per the chart above, most extinct languages came from *British and Spanish* colonies respectively but it is *British and French* colonies that produced the most endangered and vulnerable languages. 
@@ -64,7 +72,11 @@ As per the chart above, most extinct languages came from *British and Spanish* c
 **Q.** - Is a language more likely to be wiped out if spoken in only 1 country? 
 
 
-![Table-CountriesperLang](Table-Numberofcountriesperlanguage.png)
+
+
+![Table-CountriesperLang](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Table-Numberofcountriesperlanguage.png)
+
+
 
 
 **A.** - As per the chart above, a language is more likely to be extinct if it is only spoken in one country vs. spread out across multiple countries.
@@ -72,10 +84,16 @@ As per the chart above, most extinct languages came from *British and Spanish* c
 Romani is the endangered language spoken in the most number of countries (29), followed by Yiddish which is spoken in 25 countries.
 
 
+
+
 **Q.** - Is a language more likely to go extinct if the country has more than 1 colonizer?
 
 
-![Table-NumberofColonizers](Table-NumberofColonizers.png)  
+
+
+<p align="left"><img width="550" height="" src="https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Table-NumberofColonizers.png"></p>
+
+
 
 **A.** - A language is more likely to go extinct if it is from a country that only had one colonial power that ruled.
 
@@ -86,10 +104,16 @@ A language is more likely to survive if the country it comes from had multiple c
 **Q.** - Which dominant language is responsible for pushing out the most number of native tongues?
 
 
-![Dashboard-ByCurrentOfficialLanguage](Dashboard-ByCurrentOfficialLanguage.png)
+
+
+![Dashboard-ByCurrentOfficialLanguage](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Dashboard-ByCurrentOfficialLanguage.png)
+
+
 
 
 **A.** - As per the chart above, it is the English language that has pushed out the largest number of native languages.
+
+
 
 
 ### Data Limitations
