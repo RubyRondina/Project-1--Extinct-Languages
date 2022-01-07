@@ -31,6 +31,7 @@ The UNESCO endangerment classification is as follows:
 - My initial hypothesis is that most extinct languages were located in former British and Spanish Colonies.
 
 So in order to answer these question, I had to supplement the data by scraping more datasets on countries according to their world regions, sub-regions, official languages and former colonizers. 
+<br/>
 
 ## Answers and Insights Visualized
 
@@ -39,14 +40,14 @@ So in order to answer these question, I had to supplement the data by scraping m
 
 ![Map](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Map.png)
 
-As per the map above, there are large clusters of extinct, endangered and vulnerable languages between the tropics of Cancer and Capricorn, along the equator.
+As per the map above, there are large clusters of extinct, endangered and vulnerable languages between the tropics of Cancer and Capricorn, along the equator.<br/><br/><br/>
 
 
 
 
 ![Chart-Regions](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Chart-RegionsbyEndangerement.png)
 
-Most of these languages are located in the Americas, followed closely by Asia.
+Most of these languages are located in the Americas, followed closely by Asia.<br/><br/><br/>
 
 
 
@@ -56,7 +57,7 @@ Most of these languages are located in the Americas, followed closely by Asia.
 
 
 
-Most extinct languages come from North America while most of the endangered and vulnerable languages are in Latin America and the Caribbean.
+Most extinct languages come from North America while most of the endangered and vulnerable languages are in Latin America and the Caribbean.<br/><br/><br/>
 
 
 
@@ -65,12 +66,13 @@ Most extinct languages come from North America while most of the endangered and 
 The hypothesis that most extinct languages come from former British and Spanish colonies is both correct and incorrect. 
 
 As per the chart above, most extinct languages came from *British and Spanish* colonies respectively but it is *British and French* colonies that produced the most endangered and vulnerable languages. 
+<br/>
+<br/>
 
 
 ## Additional Questions and Answers
 
-**Q.** - Is a language more likely to be wiped out if spoken in only 1 country? 
-
+**Question**: Is a language more likely to be wiped out if spoken in only 1 country? 
 
 
 
@@ -78,42 +80,40 @@ As per the chart above, most extinct languages came from *British and Spanish* c
 
 
 
-
-**A.** - As per the chart above, a language is more likely to be extinct if it is only spoken in one country vs. spread out across multiple countries.
+**Answer**: As per the chart above, a language is more likely to be extinct if it is only spoken in one country vs. spread out across multiple countries.
 
 Romani is the endangered language spoken in the most number of countries (29), followed by Yiddish which is spoken in 25 countries.
 
+<br/><br/>
 
 
-
-**Q.** - Is a language more likely to go extinct if the country has more than 1 colonizer?
-
-
+**Question**: Is a language more likely to go extinct if the country has more than 1 colonizer?
+<br/>
 
 
 <p align="left"><img width="550" height="" src="https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Table-NumberofColonizers.png"></p>
 
 
 
-**A.** - A language is more likely to go extinct if it is from a country that only had one colonial power that ruled.
+**Answer**: A language is more likely to go extinct if it is from a country that only had one colonial power that ruled.
 
 A language is more likely to survive if the country it comes from had multiple colonial powers that took hold.  
+<br/><br/><br/>
 
 
+**Question**: Which dominant language is responsible for pushing out the most number of native tongues?
 
-**Q.** - Which dominant language is responsible for pushing out the most number of native tongues?
-
-
+<br/>
 
 
 ![Dashboard-ByCurrentOfficialLanguage](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Dashboard-ByCurrentOfficialLanguage.png)
 
+<br/>
 
 
+**Answer**: As per the chart above, it is the English language that has pushed out the largest number of native languages.
 
-**A.** - As per the chart above, it is the English language that has pushed out the largest number of native languages.
-
-
+<br/>
 
 
 ### Data Limitations
@@ -130,8 +130,8 @@ And since this study can be quite extensive, I decided to only study the effects
 
 **Japan**:  This country only colonized countries for less than 5 years during WWII. 
 
-**USA**:  Not a colonizer in the common sense of the word but they have been an imperial power for quite some time. 
-
+**USA**:  Not a colonizer in the common sense of the word but they have been an imperial power for quite some time. <br/>
+<br/>
 
 ### Conclusion
 
