@@ -6,7 +6,7 @@
 
 For those of you who speak more than one language, have you noticed that you think differently in each language? Do you notice that some concepts exist in one language but not in others?  So if we lose a language, what else are we losing with it?
 
-According to Ethnologue, there are 7,139 languages spoken in the world at the time of this project. But that number is constantly in flux.  As time goes on, new languages are discovered, some languages become endangered or vulnerable, while others become extinct.  
+According to [Ethnologue](https://www.ethnologue.com), there are 7,139 languages spoken in the world at the time of this project. But that number is constantly in flux.  As time goes on, new languages are discovered, some languages become endangered or vulnerable, while others become extinct.  
 
 Roughly 40% of languages are now endangered, often with less than 1,000 speakers remaining.
 
