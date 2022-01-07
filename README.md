@@ -35,8 +35,6 @@ So in order to answer these question, I had to supplement the data by scraping m
 
 ## Answers and Insights Visualized
 
-[**Link to Tableau Public for interactive dashboards and story**](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) 
-
 
 ![Map](https://github.com/RubyRondina/Project-1--Extinct-Languages/blob/main/Visuals/Map.png)
 
@@ -146,4 +144,4 @@ Language also evolves.  There is no doubt that we do not speak the same kind of 
 But one thing is for sure.  Languages disappear because they are replaced by a more dominant language.  What makes a language more dominant is a subject for another analysis that would be wonderful to dive into... 
 
 
-Please also visit my [**Tableau Public**](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) to see interactive dashboards and the full story on this project.
+**Please also visit my [Tableau Public](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) to see interactive dashboards and the full story on this project.**
