@@ -1,8 +1,13 @@
-# Project 1: Extinct Languages
+# Project 1: Extinct Languages 
+## An investigation of the effects of colonization
 
 ![Extinct Languages Image](https://raw.githubusercontent.com/RubyRondina/Project-1--Extinct-Languages/main/Visuals/intro-1523990289.webp)
 
 **Project Creation Date**: *September 2021*
+
+Jump directly to my [**Tableau Public**](https://public.tableau.com/app/profile/ruby.rondina/viz/ExtinctLanguages_16414222503700/Story1) to see interactive dashboards and the full visual story on this project.
+
+## Introduction
 
 For those of you who speak more than one language, have you noticed that you think differently in each language? Do you notice that some concepts exist in one language but not in others?  So if we lose a language, what else are we losing with it?
 
